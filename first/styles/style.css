@@ -1,0 +1,51 @@
+/*Puedo hacer esto P,LI,H1, para aplicar una sola regla a varios atributos
+p{
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+*/
+
+html {
+  font-size: 18px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-family: 'Architects Daughter', cursive; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  background-color: #DAFFFC; /*Color de fondo del atributo*/
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;/* Alineacion de textto*/
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 1; /* Espacio de entrelineas*/
+  letter-spacing: 0,8px; /* Espacio de separcion letra por letra*/
+  text-align: justify;
+}
+
+body {
+  width: 600px;  /*(ancho del elemento en este caso (body))*/
+  margin: 0 auto; /*uando seleccionas dos valores dentro de propiedades como margin o padding, el primer valor afectará los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierdo (left) y derecho (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda).*/
+  background-color: #DAFFFC;
+  padding: 0 20px 20px 20px; /*Tamaño de margen */
+  border: 1px solid black; /*Simplemente pone un borde de 5 píxeles de ancho, continuo y de color negro alrededor del elemento*/
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black /*Pone sombra al atributo*/;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+button{
+	display: block;
+	margin-left: 230px;
+}
